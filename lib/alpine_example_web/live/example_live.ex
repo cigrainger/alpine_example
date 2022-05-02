@@ -9,6 +9,9 @@ defmodule AlpineExampleWeb.ExampleLive do
       <div x-data={"{shadowed: '#{@shadowed}'}"}>
         Alpine value: <span x-text="shadowed"></span>
       </div>
+      <div x-data="{shadowed: ''}" x-init={"shadowed = '#{@shadowed}'"}>
+        Alpine x-init value: <span x-text="shadowed"></span>
+      </div>
     """
   end
 

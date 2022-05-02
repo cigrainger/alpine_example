@@ -4,4 +4,4 @@ This is an example repository showing that 'out of the box', Phoenix LiveView an
 
 You can see the steps taken to get to this point in the commit history.
 
-Loom [here](https://www.loom.com/share/681829ea5f26460ab575de4a0efcdf86).
+Loom [here](https://www.loom.com/share/7769373b6a5e41f992fc3b643b697d07).
