@@ -17,7 +17,7 @@ defmodule AlpineExampleWeb.Router do
   scope "/", AlpineExampleWeb do
     pipe_through :browser
 
-    get "/", PageController, :index
+    live "/", ExampleLive, :index
   end
 
   # Other scopes may use custom stacks.
